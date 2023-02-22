@@ -12,9 +12,9 @@ export default function App() {
   return (
     <div>
       <Field onChange={setText} />
-      <Languages />
+      <Languages language={language} onLanguageChange={setLanguage} />
       <hr />
-      <Translate />
+      <Translate text={text} language={language} />
     </div>
   );
 }
