@@ -1,3 +1,4 @@
+import './style.css';
 import React, { useState } from "react";
 import Field from "./components/field";
 import Translate from "./components/translate";
