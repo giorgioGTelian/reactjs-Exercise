@@ -5,7 +5,9 @@
 }
 
 svg {
-  display: block;
+  display: flex  !important;
+  width: 20vh;
+  height: 15vh;
 }
 
 input {
