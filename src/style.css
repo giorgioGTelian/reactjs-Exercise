@@ -5,7 +5,7 @@
 }
 
 svg {
-  display: flex  !important;
+  display: inline-block !important;
   width: 20vh;
   height: 15vh;
 }
@@ -34,6 +34,8 @@ html {
 }
 
 body {
+  z-index: auto;
+  display: inline-block;
   min-height: 100vh;
   background-color: #9fc4a5;
   font-family: "Mali", sans-serif;
